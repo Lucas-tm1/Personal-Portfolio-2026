@@ -1,0 +1,212 @@
+.background {
+    background: linear-gradient(180deg, #20394e 25%, #3b1818 100%);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-attachment: fixed;
+}
+
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      color: white;
+      font-family: "Intel One Mono", monospace;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    .navbar{
+       background: linear-gradient(180deg, #20394e 100%, #3b1818 0%);
+       color: white;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      font-size: 21px;
+      font-weight: 500;
+      transition: 0.3s ease;
+    }
+
+    .navbar a:hover {
+      color: grey;
+    }
+
+    .bigintro {
+      position: fixed;
+      top: 100px;
+      display: flex;
+      margin-left: 600px;
+      opacity: 0.8;
+      transform: rotate(-15deg);
+    }
+
+    .mainintro {
+      position: fixed;
+      padding: 15px 40px;
+      top: 450px;
+      display: flex;
+      margin-left: 150px;
+      margin-right: 150px;
+      border: 5px solid black;
+      padding-left: 25px;
+      font-size: clamp(1rem, 2vw, 2rem);
+    }
+
+    .secondaryintro {
+      position: fixed;
+      padding: 15px 40px;
+      top: 650px;
+      display: flex;
+      margin-left: 150px;
+      margin-right: 150px;
+      border: 5px solid black;
+      padding-left: 25px;
+      font-size: clamp(1rem, 2vw, 1.5rem);
+    }
+
+    .buttons {
+      position: fixed;
+      top: 775px;
+      margin-left: 960px;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 825px;
+      padding: 15px 35px;
+      z-index: 1000;
+    }
+
+    .buttons .bone {
+      display: flex;
+      color: white;
+      text-decoration: none;
+      font-size: 30px;
+      font-weight: 700;
+      transition: 0.3s ease;
+      width: 100%;
+      width: 400px;
+      border: 5px solid black;
+      padding-left: 25px;
+    }
+
+    .buttons .btwo {
+      display: flex;
+      color: white;
+      text-decoration: none;
+      font-size: 30px;
+      font-weight: 700;
+      transition: 0.3s ease;
+      width: 100%;
+      width: 400px;
+      border: 5px solid black;
+      padding-left: 45px;
+    }
+
+    .buttons a:hover {
+      color: grey;
+    }
+
+    .gameimages {
+      position: fixed;
+      top: 150px;
+      margin-left: 115px;
+      display: flex;
+      gap: 25px;
+      padding: 15px 35px;
+      height: 350px;
+    }
+
+    .gameimages .bar {
+      width: 797px;
+      height: 350px;
+      border: 5px solid black;
+    }
+
+    .gameimages .rl {
+      width: 797px;
+      height: 350px;
+      border: 5px solid black;
+    }
+
+    .maintext {
+      position: fixed;
+      padding: 15px 40px;
+      top: 535px;
+      display: flex;
+      margin-left: 150px;
+      margin-right: 150px;
+      border: 5px solid black;
+      padding-left: 25px;
+      font-size: 20px;
+    }
+
+    .secondarytext {
+      position: fixed;
+      padding: 15px 40px;
+      top: 725px;
+      display: flex;
+      margin-left: 150px;
+      margin-right: 150px;
+      border: 5px solid black;
+      padding-left: 25px;
+      font-size: 17px;
+    }
+
+    .resume {
+      position: fixed;
+      top: 150px;
+      margin-left: 700px;
+      display: flex;
+      height: 700px;
+      border: 5px solid black;
+    }
+
+    .circularimg {
+      border-radius: 50%;
+      border: 5px solid black;
+      height: 400px;
+      position: fixed;
+      top: 150px;
+      margin-left: 750px;
+    }
+
+    .contacttext {
+      position: fixed;
+      top: 600px;
+      margin-left: 715px;
+      font-size: 50px;
+    }
+
+    .email {
+      position: fixed;
+      top: 700px;
+      margin-left: 550px;
+      font-size: 50px;
+    }
+    .mar {
+      margin-left: 25px;
+    }
+
+    .marp {
+      margin-right: 25px;
+    }
+
+    .marl {
+      margin-top: 25px;
+      margin-left: 25px;
+
+    }
+
+    .mari {
+      margin-top: 25px;
+      margin-right: 25px;
+    }
+
+    .box {
+      font-size: clamp(100px, 15vw, 200px);
+    }
+    
+    body {
+      overflow-x: hidden;
+    }
